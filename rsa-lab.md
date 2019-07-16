@@ -81,7 +81,7 @@ Let's put first thing first and let generate one RSA key pair according key size
 
 Please, report to the performance table, the sum of **real+user+sys** time according key size for the column "**Key generation in seconds**". At this step, you already realize how long it is to generate key pairs bigger than 4096!
 
-![alt-text](https://github.com/guikarai/LinuxONE-ECC/blob/master/images/keygen-RSA.png)
+![alt-text](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/images/keygen-RSA.png)
 
 Let's see together what has been generated. Please issue the following command:
 ```
@@ -155,7 +155,7 @@ Now, we have enough crypto materials. Let's reuse generated private keys to test
 
 Please, report to the performance table, the sum of **real+user+sys** time according key size for the column "**Digital signature in seconds**". Don't you see how explonential is the time required for such RSA crypto workload?
 
-![alt-text](https://github.com/guikarai/LinuxONE-ECC/blob/master/images/signature-RSA.png)
+![alt-text](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/images/signature-RSA.png)
 
 Let's see together what has been generated. Please issue the following command:
 ```
@@ -224,7 +224,7 @@ We have enough crypto materials. We have a detached digital signature file. Let'
 
 Please, report to the performance table, the sum of **real+user+sys** time according key size for the column "**Signature verification in seconds**". Don't you see how verifying a digital signature is faster than performing a digital signature with RSA?
 
-![alt-text](https://github.com/guikarai/LinuxONE-ECC/blob/master/images/signature-verification-RSA.png)
+![alt-text](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/images/signature-verification-RSA.png)
 
 
 ## Generating x509 digital certificates with RSA
@@ -272,7 +272,7 @@ Let's reuse generated public and private keys to test how long it takes to **gen
 
 Please, report to the performance table, the sum of **real+user+sys** time according key size for the column "**Certificate generation in seconds**". Don't you see the production limit of the RSA while hardening a digital certificates with bigger keys? And this is only about generating 10x x509 digital certificates !!! 
 
-![alt-text](https://github.com/guikarai/LinuxONE-ECC/blob/master/images/certificate-RSA.png)
+![alt-text](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/images/certificate-RSA.png)
 
 This mainly explain why RSA will not be good for production beyond a key size of 4096.
 
