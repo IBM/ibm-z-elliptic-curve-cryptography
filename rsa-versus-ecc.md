@@ -82,4 +82,4 @@ icastats
 
 ```
 
-Congratulations, this ends the hands-on lab about LinuxONE and ECC.
+Congratulations, this ends the hands-on lab about LinuxONE and ECC. Ultimately, you can go with step 5 to practice with a real use case with Apache. This is step 5.
