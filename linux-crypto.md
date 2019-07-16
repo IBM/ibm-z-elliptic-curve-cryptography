@@ -15,7 +15,7 @@ If you have not done so already, register at http://www.ibm.com/linuxone/try for
 ### Deploy a virtual server instance
 If you have not deployed a virtual server already, please follow these [instructions](http://developer.ibm.com/linuxone/wp-content/uploads/sites/57/virtual-servers-quick-start.pdf) to create one before proceeding. Make sure you select a flavor (resource definition) with 4 GB of memory. 
 
-This quick-start guide has been tested with the following Linux distributions: **Red Hat Enterprise Linux (RHEL) 7.2**
+This quick-start guide has been tested with the following Linux distributions: **Red Hat Enterprise Linux (RHEL) 7.6**
 
 # 1 - Introduction to the pervasive encryption
 Pervasive encryption is a data-centric approach to information security that entails protecting data entering and exiting the z14 platform. It involves encrypting data in-flight and at-rest to meet complex compliance mandates and reduce the risks and financial losses of a data breach. It is a paradigm shift from selective encryption (where only the data that is required to achieve compliance is encrypted) to pervasive encryption. Pervasive encryption with z14 is enabled through tight platform integration that includes Linux on IBM Z or LinuxONE following features:
