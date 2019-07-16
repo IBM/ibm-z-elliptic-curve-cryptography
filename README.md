@@ -45,7 +45,7 @@ Note that this is not the same thing as key length as many may think. Security c
 
 # Steps
 
-* **Step 1** - [Enabling Linux to use hardware encryption](https://github.com/guillaume-hoareau/ibm-z-elliptic-curve-cryptography/blob/master/linux-crypto.md)
+* **Step 1** - [Enabling Linux to use hardware encryption](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/linux-crypto.md)
 ```
     1. Introduction to the pervasive encryption
     2. Introduction to the Linux crypto stack
@@ -54,7 +54,7 @@ Note that this is not the same thing as key length as many may think. Security c
     5. Checking Hardware Crypto functions
   ```  
 
-* **Step 2** - [Monitor RSA public key activity performance](https://github.com/guillaume-hoareau/ibm-z-elliptic-curve-cryptography/blob/master/rsa-lab.md)
+* **Step 2** - [Monitor RSA public key activity performance](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/rsa-lab.md)
 ```
     1. RSA performance table
     2. Generating public keys with RSA
@@ -63,7 +63,7 @@ Note that this is not the same thing as key length as many may think. Security c
     5. Generating x509 digital certificates with RSA
 ```    
 
-* **Step 3** - [Monitor ECC public key acticity performance](https://github.com/guillaume-hoareau/ibm-z-elliptic-curve-cryptography/blob/master/ecc-lab.md)
+* **Step 3** - [Monitor ECC public key acticity performance](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/ecc-lab.md)
 ```
     1. ECC performance table
     2. Generating public keys with ECC
@@ -72,7 +72,7 @@ Note that this is not the same thing as key length as many may think. Security c
     5. Generating x509 digital certificates with ECC
 ```    
 
-* **Step 4** - [Compare RSA and ECC performance](https://github.com/guillaume-hoareau/ibm-z-elliptic-curve-cryptography/blob/master/rsa-versus-ecc.md)
+* **Step 4** - [Compare RSA and ECC performance](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/rsa-versus-ecc.md)
 ```
     1. Performance summary
     2. ECC and Hardware Acceleration
