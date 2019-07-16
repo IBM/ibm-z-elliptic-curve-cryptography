@@ -417,4 +417,4 @@ openssl x509 -in mycert-4096.pem -text
 ```
 
 
-This ends the RSA activity section. You can now start the ECC activity section [Step 3](https://github.com/guikarai/LinuxONE-ECC/blob/master/ecc-lab.md).
+This ends the RSA activity section. You can now start the ECC activity section [Step 3](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/ecc-lab.md).
