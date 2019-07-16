@@ -341,4 +341,4 @@ openssl x509 -in mycert-prime256v1.pem -text
  -----END CERTIFICATE-----
 ```
 
-This ends the ECC activity section. You are now ready to compare ECC and RSA regarding performance in [Step 4](https://github.com/guikarai/LinuxONE-ECC/blob/master/rsa-versus-ecc.md).
+This ends the ECC activity section. You are now ready to compare ECC and RSA regarding performance in [Step 4](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/rsa-versus-ecc.md).
