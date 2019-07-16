@@ -9,7 +9,7 @@ When you will complete this hands-on exploration of the ECC on LinuxONE, you wil
 
 # Architecture
 This journey requires an existing Linux on IBM Z environment of your choice as starting point. From there, and after some optimization, you will be able to generate both RSA and ECC activities and measure their relative performance regarding several use cases.
-![alt-text](https://github.com/guillaume-hoareau/ibm-z-elliptic-curve-cryptography/blob/master/images/linuxone-ecc.png)
+![alt-text](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/images/linuxone-ecc.png)
 
 1. User optimizes, and monitors Enterprise Legacy environment encryption activity.
 2. User stumilates RSA and ECC activities and measure performance of these activities.
