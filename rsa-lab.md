@@ -20,13 +20,12 @@ cd RSA/
 List the content of the directory with the following command:
 ```
 ls -l
-
-  total 60
-  -rwxr-xr-x 1 root root   684 Aug 14 14:04 generateRSAcertificates.sh
-  -rwxr-xr-x 1 root root   400 Aug 14 13:31 generateRSAkeys.sh
-  -rwxr-xr-x 1 root root   371 Aug 14 12:00 signPDFwithRSA.sh
-  -rw-r--r-- 1 root root 41044 Aug 14 11:58 test.pdf
-  -rwxr-xr-x 1 root root   500 Aug 14 12:07 verifyPDFwithRSA.sh
+total 60
+-rw-r--r-- 1 root root   683 Jul 18 10:15 generateRSAcertificates.sh
+-rw-r--r-- 1 root root   405 Jul 18 10:15 generateRSAkeys.sh
+-rw-r--r-- 1 root root   372 Jul 18 10:15 signPDFwithRSA.sh
+-rw-r--r-- 1 root root 41044 Jul 18 10:15 test.pdf
+-rw-r--r-- 1 root root   501 Jul 18 10:15 verifyPDFwithRSA.sh
 ```
 
 As you can see, there are a set of script designed to test RSA cryptographic activities. During this section, we we will generate key pairs using RSA with different size of RSA key. 
@@ -105,7 +104,9 @@ As you can see, we generated for each RSA key size, two keys (one public, and on
 
 ## Signing a pdf file with RSA
 
-Now, we have enough crypto materials. Let's reuse generated private keys to test how long it takes to **perform 100x digital signatures** of a 3MB pdf file with various RSA key size. Please, issue the following command:
+Now, we have enough crypto materials. Let's reuse generated private keys to test how long it takes to **perform 100x digital signatures** of a 3MB pdf file with various RSA key size. 
+
+Please, issue the following command (to abort the sequence press Ctrl+C if it takes too long with RSA-15360, that is normal):
 ```
 ./signPDFwithRSA.sh
 
