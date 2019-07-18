@@ -1,5 +1,8 @@
 # Working with a local clone of the repository LinuxONE-ECC
 
+## Installing the Git command
+To install the git functions, please enter the following command:
+
 ## Cloning the Git repository
 To work the lab materials, please enter the following command:
 ```
@@ -10,9 +13,9 @@ Let see together that nothing is missing. Please issue the following command:
 ```
 ls
 ```
-A directory name ***LinuxONE-ECC** is now available. Please let go inside this repository by issuing the following command:
+A directory name ***ibm-z-elliptic-curve-cryptography** is now available. Please let go inside this repository by issuing the following command:
 ```
-cd LinuxONE-ECC
+cd ibm-z-elliptic-curve-cryptography
 ```
 Let see together that nothing is missing. Please issue the following command:
 ```
