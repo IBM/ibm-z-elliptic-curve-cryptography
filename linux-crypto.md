@@ -463,4 +463,4 @@ icastats
 **Note:** We can clearly see here the crypto offload in encryption operations. 92253124 operations were offloaded to the CPACF.
 **Note2:** We can clearly see here the crypto offload in decryption operations. 105806394 operations were offloaded to the CPACF.
 
-You are now ready to go the [Step 2](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/rsa-lab.md).
+You are now ready to clone the Git following these instruction: [Cloning the Git](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/git-clone.md)
