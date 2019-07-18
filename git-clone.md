@@ -3,7 +3,7 @@
 ## Cloning the Git repository
 To work the lab materials, please enter the following command:
 ```
-git clone https://github.com/guikarai/LinuxONE-ECC.git
+git clone https://github.com/IBM/ibm-z-elliptic-curve-cryptography.git
 ```
 ## Browsing the local clone of the git repository LinuxONE-ECC
 Let see together that nothing is missing. Please issue the following command:
@@ -23,4 +23,4 @@ In the directory **/RSA** you will find a set of script allowing you to generate
 
 In the directory **/ECC** you will find a set of script allowing you to generate ECC keys, to perform a digital signature, and verify a digital signature.
 
-This ends this section, you can now start the RSA activity section.
+You are now ready to go the [Step 2](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/rsa-lab.md).
