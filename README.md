@@ -52,6 +52,7 @@ Note that this is not the same thing as key length as many may think. Security c
     3. Enabling Linux to use the Hardware
     4. Enabling OpenSSL to use the hardware acceleration support
     5. Checking Hardware Crypto functions
+    6. Cloning the git
   ```  
 
 * **Step 2** - [Monitor RSA public key activity performance](https://github.com/IBM/ibm-z-elliptic-curve-cryptography/blob/master/rsa-lab.md)
